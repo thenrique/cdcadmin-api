@@ -80,7 +80,12 @@
 					<groupId>javax.servlet.jsp</groupId>
 				</exclusion>
 			</exclusions>
-		</dependency>
+			</dependency>
+			<dependency>
+	    <groupId>org.postgresql</groupId>
+	    <artifactId>postgresql</artifactId>
+	    <version>9.4.1212</version>
+	</dependency>
 	</dependencies>
 	<build>
 		<plugins>
